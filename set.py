@@ -33,13 +33,13 @@ set2 = {"a", "b", "c"}
 set3 = set1.union(set2) # or using set1 | set2
 print(set3)
 
-#The intersection() method keeps ONLY the duplicates.
+#The intersection() method keeps ONLY the duplicates. (yang ada di set1 dan set2)
 setIntersection1 = {1, 2, 3, 4}
 setIntersection2 = {"a", "b", "c", 4}
-setIntersection3 = setIntersection1.intersection(setIntersection2) # or using setIntersection1 & setDifference2
+setIntersection3 = setIntersection1.intersection(setIntersection2) # or using setIntersection1 & setIntersection2
 print(setIntersection3) # output = {4}
 
-#The difference() method keeps the items from the first set that are not in the other set(s).
+#The difference() method keeps the items from the first set that are not in the other set(s). (yang ada di set1 namun tidak ada di set2)
 setDifference1 = {"Pisang", "Pepaya", "Apple"}
 setDifference2 = {"Google", "Yahho", "Bing", "Apple"}
 setIntersection3 = setDifference1.difference(setDifference2) # or using setDifference1 - setDifference2
